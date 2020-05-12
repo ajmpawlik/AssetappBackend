@@ -15,7 +15,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.pluralsight.conferencedemo</mainClass>
+					<mainClass>com.pluralsight.conferencedemo.ConferenceDemoApplication</mainClass>
 				</configuration>
 
 				<executions>
