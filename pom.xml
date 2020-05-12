@@ -8,7 +8,7 @@
 		<version>2.2.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
+<!--Added the below -->
 	<build>
 		<plugins>
 			<plugin>
@@ -19,9 +19,9 @@
 	</build>
 
 	<groupId>com.pluralsight</groupId>
-	<artifactId>conference-demo</artifactId>
+	<artifactId>assetapp-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>conference-demo</name>
+	<name>assetapp-backend</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
