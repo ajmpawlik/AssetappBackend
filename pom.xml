@@ -8,27 +8,7 @@
 		<version>2.2.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-<!--Added the below -->
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<mainClass>com.pluralsight.conferencedemo.ConferenceDemoApplication</mainClass>
-				</configuration>
 
-				<executions>
-					<execution>
-						<goals>
-							<goal>repackage</goal>
-						</goals>
-					</execution>
-				</executions>
-
-			</plugin>
-		</plugins>
-	</build>
 
 	<groupId>com.pluralsight</groupId>
 	<artifactId>assetapp-backend</artifactId>
@@ -69,4 +49,28 @@
 		</dependency>
 
 </dependencies>
+
+	<!--Added the below -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<executable>true</executable>
+					<!--<mainClass>com.pluralsight.conferencedemo.ConferenceDemoApplication</mainClass> -->
+				</configuration>
+
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
