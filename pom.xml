@@ -59,6 +59,7 @@
 				<configuration>
 					<executable>true</executable>
 					<!--<mainClass>com.pluralsight.conferencedemo.ConferenceDemoApplication</mainClass> -->
+					<!--<mainClass>com.pluralsight.conferencedemo.ConferenceDemoApplication</mainClass> -->
 				</configuration>
 
 				<executions>
