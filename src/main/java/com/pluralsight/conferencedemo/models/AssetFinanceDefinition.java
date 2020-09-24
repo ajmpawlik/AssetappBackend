@@ -16,7 +16,6 @@ public class AssetFinanceDefinition {
   private String definition;
 
   public AssetFinanceDefinition() {
-
   }
 
   public Long getId() {

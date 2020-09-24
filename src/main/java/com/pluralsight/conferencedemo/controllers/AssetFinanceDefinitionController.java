@@ -15,7 +15,7 @@ public class AssetFinanceDefinitionController {
 
   @Autowired
  private AssetFinanceDefinitionRepository assetFinanceDefinitionRepository;
-//
+
   @GetMapping
   public List<AssetFinanceDefinition> list() {
     return assetFinanceDefinitionRepository.findAll();
