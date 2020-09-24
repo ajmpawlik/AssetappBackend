@@ -62,7 +62,7 @@
 
 	<!--Added the below -->
 	<build>
-		<plugins>g
+		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
